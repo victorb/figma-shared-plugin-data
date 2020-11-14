@@ -12,3 +12,4 @@ More information about `setSharedPluginData` here: https://www.figma.com/plugin-
 | Community Page | Plugin Name | Source Code | Namespace | Key | Structure of value | Set on Node Type |
 |-------------------------------------------------------------------|-------------|------------------------------------------|-----------|-------|-------------------------------------|---|
 | [Figma Community Page](https://www.figma.com/community/plugin/735098390272716381/Iconify) | Iconify     | https://github.com/iconify/iconify-figma | `iconify`   | `props` | JSON string with `name`, `color` and `props` | `FrameNode` |
+| [Figma Community Page](https://www.figma.com/community/plugin/843461159747178978/Figma-Tokens) | Figma Tokens     | https://github.com/six7/figma-tokens | `tokens`   | `values` | JSON string as [`TokenData`](https://github.com/six7/figma-tokens/blob/f5a690244a05542b825b456a81703af412fa773a/src/app/components/TokenData.tsx) | Root `DocumentNode` |
